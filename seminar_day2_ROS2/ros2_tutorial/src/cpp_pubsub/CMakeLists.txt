@@ -9,7 +9,7 @@ endif()
 #####################################################
 # 필요한 패키지 불러오기
 #####################################################
-find_package(ament_cmake REQUIRED) # -> 자동으로 작성됨
+find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
@@ -17,13 +17,18 @@ find_package(std_msgs REQUIRED)
 #####################################################
 # 실행 파일 생성하기
 #####################################################
-add_executable(talker src/publisher_member_funcion.cpp)
+add_executable(talker src/publisher_member_function.cpp)
+add_executable(listener src/subscriber_member_function.cpp)
 
 
 #####################################################
 # 의존성 연결하기
 #####################################################
 ament_target_dependencies(talker
+  rclcpp
+  std_msgs
+)
+ament_target_dependencies(listener
   rclcpp
   std_msgs
 )
@@ -36,6 +41,7 @@ install(TARGETS
   talker
   DESTINATION lib/${PROJECT_NAME}
 )
+이이
 
 
 ament_package()
