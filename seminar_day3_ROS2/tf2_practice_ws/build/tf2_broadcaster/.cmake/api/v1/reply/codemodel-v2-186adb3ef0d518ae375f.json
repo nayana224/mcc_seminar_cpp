@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b71fd168def4af8373c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tf2_broadcaster",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_broadcaster-f39c8af3040432599160.json",
+					"name" : "tf2_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_broadcaster_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_broadcaster_uninstall-c645ad2e3cf7f7b5fa97.json",
+					"name" : "tf2_broadcaster_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6b82d3bdde6da910a22a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pyo/02_Work/04_Cpp/mcc_seminar/seminar_day3_ROS2/tf2_practice_ws/build/tf2_broadcaster",
+		"source" : "/home/pyo/02_Work/04_Cpp/mcc_seminar/seminar_day3_ROS2/tf2_practice_ws/src/tf2_broadcaster"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -44,5 +44,3 @@ int main(int argc, char* argv[])
     rclcpp::shutdown(); // 종료시 자원 반납
     return 0;
 }
-
-
