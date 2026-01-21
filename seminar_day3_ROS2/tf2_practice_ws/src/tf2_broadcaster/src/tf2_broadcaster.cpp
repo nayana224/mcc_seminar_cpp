@@ -12,17 +12,25 @@ class SimpleTfBroadcaster
 : public rclcpp::Node
 {
 public:
+// 생성자
     SimpleTfBroadcaster()
     : Node("simple_tf2_broadcaster")
     {
-        tf_broadcaster_ = std::make_unique<tf2_ros::TransformBroadcaster>(*this);
+        tf_broadcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>(*this);
 
         timer_ = this->create_wall_timer(
             std::chrono::milliseconds(10), std::bind(&SimpleTfBroadcaster::broadcast_timer_callback, this)
         );
+
+        RCLCPP_INFO(this->get_logger(), "tf2 broadcaster is started!");
     }
 
 private:
+// 멤버 변수
+    rclcpp::TimerBase::SharedPtr timer_;
+    std::shared_ptr<tf2_ros::TransformBroadcaster> tf_broadcaster_;
+
+// 멤버 함수
     void broadcast_timer_callback()
     {
         geometry_msgs::msg::TransformStamped t;
@@ -43,14 +51,15 @@ private:
         t.transform.rotation.z = q.z();
         t.transform.rotation.w = q.w();
 
+    // tf 토픽으로 정보 송신
         tf_broadcaster_->sendTransform(t);
     }
-    rclcpp::TimerBase::SharedPtr timer_;
-    std::unique_ptr<tf2_ros::TransformBroadcaster> tf_broadcaster_;
+    
 };
 
 
-int main(int argc, char **argv) {
+int main(int argc, char* argv[]) 
+{
     rclcpp::init(argc, argv);
     rclcpp::spin(std::make_shared<SimpleTfBroadcaster>());
     rclcpp::shutdown();

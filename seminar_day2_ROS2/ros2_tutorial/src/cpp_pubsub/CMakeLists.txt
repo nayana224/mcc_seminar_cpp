@@ -39,7 +39,7 @@ ament_target_dependencies(listener
 # ros2 run 명령어로 실행할 수 있도록 install 폴더로 복사하기
 #####################################################
 install(TARGETS
-  talker
+  talker listener
   DESTINATION lib/${PROJECT_NAME}
 )
 
