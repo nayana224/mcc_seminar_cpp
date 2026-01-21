@@ -1,9 +1,0 @@
-/home/pyo/02_Work/04_Cpp/mcc_seminar/seminar_day3_ROS2/urdf_practice_ws/build/open_manipulator_x_description/CMakeFiles/uninstall.dir
-/home/pyo/02_Work/04_Cpp/mcc_seminar/seminar_day3_ROS2/urdf_practice_ws/build/open_manipulator_x_description/CMakeFiles/open_manipulator_x_description_uninstall.dir
-/home/pyo/02_Work/04_Cpp/mcc_seminar/seminar_day3_ROS2/urdf_practice_ws/build/open_manipulator_x_description/CMakeFiles/test.dir
-/home/pyo/02_Work/04_Cpp/mcc_seminar/seminar_day3_ROS2/urdf_practice_ws/build/open_manipulator_x_description/CMakeFiles/edit_cache.dir
-/home/pyo/02_Work/04_Cpp/mcc_seminar/seminar_day3_ROS2/urdf_practice_ws/build/open_manipulator_x_description/CMakeFiles/rebuild_cache.dir
-/home/pyo/02_Work/04_Cpp/mcc_seminar/seminar_day3_ROS2/urdf_practice_ws/build/open_manipulator_x_description/CMakeFiles/list_install_components.dir
-/home/pyo/02_Work/04_Cpp/mcc_seminar/seminar_day3_ROS2/urdf_practice_ws/build/open_manipulator_x_description/CMakeFiles/install.dir
-/home/pyo/02_Work/04_Cpp/mcc_seminar/seminar_day3_ROS2/urdf_practice_ws/build/open_manipulator_x_description/CMakeFiles/install/local.dir
-/home/pyo/02_Work/04_Cpp/mcc_seminar/seminar_day3_ROS2/urdf_practice_ws/build/open_manipulator_x_description/CMakeFiles/install/strip.dir

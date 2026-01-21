@@ -1,2 +1,0 @@
-Invoking command in '/home/pyo/02_Work/04_Cpp/mcc_seminar/seminar_day2_ROS2/ros2_tutorial/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pyo/02_Work/04_Cpp/mcc_seminar/seminar_day2_ROS2/ros2_tutorial/build/cpp_pubsub -- -j18 -l18
-Invoked command in '/home/pyo/02_Work/04_Cpp/mcc_seminar/seminar_day2_ROS2/ros2_tutorial/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pyo/02_Work/04_Cpp/mcc_seminar/seminar_day2_ROS2/ros2_tutorial/build/cpp_pubsub -- -j18 -l18

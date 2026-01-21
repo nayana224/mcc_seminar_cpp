@@ -1,8 +1,0 @@
-[31mCMake Error at CMakeLists.txt:45:
-  Parse error.  Expected a command name, got unquoted argument with text
-  "이이".
-
-[0m
--- Configuring incomplete, errors occurred!
-See also "/home/pyo/02_Work/04_Cpp/mcc_seminar/seminar_day2_ROS2/ros2_tutorial/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
-gmake: *** [Makefile:308: cmake_check_build_system] Error 1
