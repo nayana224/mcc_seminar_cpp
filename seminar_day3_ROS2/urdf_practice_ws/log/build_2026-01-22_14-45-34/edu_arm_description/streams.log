@@ -1,0 +1,52 @@
+[0.013s] Invoking command in '/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/build/edu_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/src/edu_arm_description -DCMAKE_INSTALL_PREFIX=/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description
+[0.099s] -- The C compiler identification is GNU 11.4.0
+[0.171s] -- The CXX compiler identification is GNU 11.4.0
+[0.181s] -- Detecting C compiler ABI info
+[0.271s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.283s] -- Detecting C compile features
+[0.283s] -- Detecting C compile features - done
+[0.288s] -- Detecting CXX compiler ABI info
+[0.392s] -- Detecting CXX compiler ABI info - done
+[0.402s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.402s] -- Detecting CXX compile features
+[0.403s] -- Detecting CXX compile features - done
+[0.406s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.601s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.798s] -- Configuring done
+[0.800s] -- Generating done
+[0.802s] -- Build files have been written to: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/build/edu_arm_description
+[0.809s] Invoked command in '/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/build/edu_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/src/edu_arm_description -DCMAKE_INSTALL_PREFIX=/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description
+[0.811s] Invoking command in '/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/build/edu_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/build/edu_arm_description -- -j18 -l18
+[0.863s] Invoked command in '/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/build/edu_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/build/edu_arm_description -- -j18 -l18
+[0.875s] Invoking command in '/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/build/edu_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/build/edu_arm_description
+[0.885s] -- Install configuration: ""
+[0.885s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/launch
+[0.885s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/launch/view_robot.launch.py
+[0.886s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/urdf
+[0.886s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/urdf/robot.urdf.xacro
+[0.886s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes
+[0.886s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes/gripper_right_palm.stl
+[0.886s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes/link2.stl
+[0.886s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes/link3.stl
+[0.887s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes/link1.stl
+[0.888s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes/Plate.stl
+[0.889s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes/link5.stl
+[0.890s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes/gripper_left_palm.stl
+[0.890s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes/link4.stl
+[0.891s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/ament_index/resource_index/package_run_dependencies/edu_arm_description
+[0.891s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/ament_index/resource_index/parent_prefix_path/edu_arm_description
+[0.891s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/environment/ament_prefix_path.sh
+[0.891s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/environment/ament_prefix_path.dsv
+[0.891s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/environment/path.sh
+[0.891s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/environment/path.dsv
+[0.891s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/local_setup.bash
+[0.892s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/local_setup.sh
+[0.892s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/local_setup.zsh
+[0.892s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/local_setup.dsv
+[0.892s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/package.dsv
+[0.892s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/ament_index/resource_index/packages/edu_arm_description
+[0.892s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/cmake/edu_arm_descriptionConfig.cmake
+[0.892s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/cmake/edu_arm_descriptionConfig-version.cmake
+[0.892s] -- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/package.xml
+[0.895s] Invoked command in '/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/build/edu_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/build/edu_arm_description

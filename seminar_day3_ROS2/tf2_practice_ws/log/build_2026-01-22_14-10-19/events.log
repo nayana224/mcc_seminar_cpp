@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.000403] (tf2_broadcaster) JobQueued: {'identifier': 'tf2_broadcaster', 'dependencies': OrderedDict()}
+[0.000762] (tf2_broadcaster) JobStarted: {'identifier': 'tf2_broadcaster'}
+[0.012727] (tf2_broadcaster) JobProgress: {'identifier': 'tf2_broadcaster', 'progress': 'cmake'}
+[0.013546] (tf2_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/src/tf2_broadcaster', '-DCMAKE_INSTALL_PREFIX=/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster'], 'cwd': '/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/build/tf2_broadcaster', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pyo'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pyo'), ('OLDPWD', '/home/pyo/mcc_seminar_cpp'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1641'), ('SYSTEMD_EXEC_PID', '1810'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4787'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pyo'), ('ONSHAPE_SECRET_KEY', 'zvwVEFwrosdo9CvV22TxbBOUVhT8YXEl4v43AdVKElG7afau'), ('JOURNAL_STREAM', '8:21325'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pyo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pyo/.local/bin:/home/pyo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pyo/.dotnet/tools'), ('SESSION_MANAGER', 'local/pc:@/tmp/.ICE-unix/1780,unix/pc:/tmp/.ICE-unix/1780'), ('INVOCATION_ID', '925f6e85ce59415e97b75b1e40ad5306'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/pyo/.cache/dotnet_bundle_extract'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PJVQJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9d007bb7-8da1-4799-91e5-b598f33ea96c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/build/tf2_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ONSHAPE_ACCESS_KEY', 'XxSyTHkWNBkSj1zkuuY81OO8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('ONSHAPE_API', 'https://cad.onshape.com'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099525] (-) TimerEvent: {}
+[0.133184] (tf2_broadcaster) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199692] (-) TimerEvent: {}
+[0.223109] (tf2_broadcaster) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.235089] (tf2_broadcaster) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299867] (-) TimerEvent: {}
+[0.330079] (tf2_broadcaster) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.339938] (tf2_broadcaster) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.340597] (tf2_broadcaster) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.341304] (tf2_broadcaster) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.345528] (tf2_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400029] (-) TimerEvent: {}
+[0.447851] (tf2_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.457583] (tf2_broadcaster) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.457994] (tf2_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.458445] (tf2_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.464454] (tf2_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500138] (-) TimerEvent: {}
+[0.600547] (-) TimerEvent: {}
+[0.671272] (tf2_broadcaster) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700703] (-) TimerEvent: {}
+[0.797393] (tf2_broadcaster) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.800804] (-) TimerEvent: {}
+[0.867491] (tf2_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.875143] (tf2_broadcaster) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.889185] (tf2_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.900972] (-) TimerEvent: {}
+[0.908016] (tf2_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.930512] (tf2_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.996290] (tf2_broadcaster) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.000905] (tf2_broadcaster) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.001274] (-) TimerEvent: {}
+[1.101724] (-) TimerEvent: {}
+[1.111491] (tf2_broadcaster) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.153665] (tf2_broadcaster) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.201909] (-) TimerEvent: {}
+[1.214584] (tf2_broadcaster) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.228655] (tf2_broadcaster) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.302065] (-) TimerEvent: {}
+[1.323430] (tf2_broadcaster) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.323947] (tf2_broadcaster) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.402233] (-) TimerEvent: {}
+[1.418163] (tf2_broadcaster) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.419949] (tf2_broadcaster) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.494592] (tf2_broadcaster) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.502327] (-) TimerEvent: {}
+[1.602768] (-) TimerEvent: {}
+[1.703337] (-) TimerEvent: {}
+[1.712690] (tf2_broadcaster) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.726674] (tf2_broadcaster) StdoutLine: {'line': b'-- Generating done\n'}
+[1.731851] (tf2_broadcaster) StdoutLine: {'line': b'-- Build files have been written to: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/build/tf2_broadcaster\n'}
+[1.744994] (tf2_broadcaster) CommandEnded: {'returncode': 0}
+[1.746263] (tf2_broadcaster) JobProgress: {'identifier': 'tf2_broadcaster', 'progress': 'build'}
+[1.748582] (tf2_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/build/tf2_broadcaster', '--', '-j18', '-l18'], 'cwd': '/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/build/tf2_broadcaster', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pyo'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pyo'), ('OLDPWD', '/home/pyo/mcc_seminar_cpp'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1641'), ('SYSTEMD_EXEC_PID', '1810'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4787'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pyo'), ('ONSHAPE_SECRET_KEY', 'zvwVEFwrosdo9CvV22TxbBOUVhT8YXEl4v43AdVKElG7afau'), ('JOURNAL_STREAM', '8:21325'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pyo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pyo/.local/bin:/home/pyo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pyo/.dotnet/tools'), ('SESSION_MANAGER', 'local/pc:@/tmp/.ICE-unix/1780,unix/pc:/tmp/.ICE-unix/1780'), ('INVOCATION_ID', '925f6e85ce59415e97b75b1e40ad5306'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/pyo/.cache/dotnet_bundle_extract'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PJVQJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9d007bb7-8da1-4799-91e5-b598f33ea96c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/build/tf2_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ONSHAPE_ACCESS_KEY', 'XxSyTHkWNBkSj1zkuuY81OO8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('ONSHAPE_API', 'https://cad.onshape.com'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.803488] (-) TimerEvent: {}
+[1.818754] (tf2_broadcaster) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tf2_broadcaster.dir/src/tf2_broadcaster.cpp.o\x1b[0m\n'}
+[1.903638] (-) TimerEvent: {}
+[2.004105] (-) TimerEvent: {}
+[2.104558] (-) TimerEvent: {}
+[2.205086] (-) TimerEvent: {}
+[2.305671] (-) TimerEvent: {}
+[2.406151] (-) TimerEvent: {}
+[2.506683] (-) TimerEvent: {}
+[2.607300] (-) TimerEvent: {}
+[2.707898] (-) TimerEvent: {}
+[2.808473] (-) TimerEvent: {}
+[2.909068] (-) TimerEvent: {}
+[3.009662] (-) TimerEvent: {}
+[3.110128] (-) TimerEvent: {}
+[3.210587] (-) TimerEvent: {}
+[3.311069] (-) TimerEvent: {}
+[3.411545] (-) TimerEvent: {}
+[3.512024] (-) TimerEvent: {}
+[3.612508] (-) TimerEvent: {}
+[3.712990] (-) TimerEvent: {}
+[3.813504] (-) TimerEvent: {}
+[3.913990] (-) TimerEvent: {}
+[4.014479] (-) TimerEvent: {}
+[4.114973] (-) TimerEvent: {}
+[4.215477] (-) TimerEvent: {}
+[4.315968] (-) TimerEvent: {}
+[4.416460] (-) TimerEvent: {}
+[4.516963] (-) TimerEvent: {}
+[4.617459] (-) TimerEvent: {}
+[4.717971] (-) TimerEvent: {}
+[4.818495] (-) TimerEvent: {}
+[4.918991] (-) TimerEvent: {}
+[5.019507] (-) TimerEvent: {}
+[5.120020] (-) TimerEvent: {}
+[5.220532] (-) TimerEvent: {}
+[5.321061] (-) TimerEvent: {}
+[5.421576] (-) TimerEvent: {}
+[5.522066] (-) TimerEvent: {}
+[5.622544] (-) TimerEvent: {}
+[5.723036] (-) TimerEvent: {}
+[5.823696] (-) TimerEvent: {}
+[5.924245] (-) TimerEvent: {}
+[6.024942] (-) TimerEvent: {}
+[6.125404] (-) TimerEvent: {}
+[6.225892] (-) TimerEvent: {}
+[6.326377] (-) TimerEvent: {}
+[6.328407] (tf2_broadcaster) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tf2_broadcaster\x1b[0m\n'}
+[6.426535] (-) TimerEvent: {}
+[6.527062] (-) TimerEvent: {}
+[6.619217] (tf2_broadcaster) StdoutLine: {'line': b'[100%] Built target tf2_broadcaster\n'}
+[6.627179] (-) TimerEvent: {}
+[6.632715] (tf2_broadcaster) CommandEnded: {'returncode': 0}
+[6.633948] (tf2_broadcaster) JobProgress: {'identifier': 'tf2_broadcaster', 'progress': 'install'}
+[6.646571] (tf2_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/build/tf2_broadcaster'], 'cwd': '/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/build/tf2_broadcaster', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pyo'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pyo'), ('OLDPWD', '/home/pyo/mcc_seminar_cpp'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1641'), ('SYSTEMD_EXEC_PID', '1810'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4787'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pyo'), ('ONSHAPE_SECRET_KEY', 'zvwVEFwrosdo9CvV22TxbBOUVhT8YXEl4v43AdVKElG7afau'), ('JOURNAL_STREAM', '8:21325'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pyo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pyo/.local/bin:/home/pyo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pyo/.dotnet/tools'), ('SESSION_MANAGER', 'local/pc:@/tmp/.ICE-unix/1780,unix/pc:/tmp/.ICE-unix/1780'), ('INVOCATION_ID', '925f6e85ce59415e97b75b1e40ad5306'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/pyo/.cache/dotnet_bundle_extract'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PJVQJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9d007bb7-8da1-4799-91e5-b598f33ea96c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/build/tf2_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ONSHAPE_ACCESS_KEY', 'XxSyTHkWNBkSj1zkuuY81OO8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('ONSHAPE_API', 'https://cad.onshape.com'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.657046] (tf2_broadcaster) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.657306] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/lib/tf2_broadcaster/tf2_broadcaster\n'}
+[6.658434] (tf2_broadcaster) StdoutLine: {'line': b'-- Set runtime path of "/home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/lib/tf2_broadcaster/tf2_broadcaster" to ""\n'}
+[6.658615] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/share/ament_index/resource_index/package_run_dependencies/tf2_broadcaster\n'}
+[6.658831] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/share/ament_index/resource_index/parent_prefix_path/tf2_broadcaster\n'}
+[6.659036] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/share/tf2_broadcaster/environment/ament_prefix_path.sh\n'}
+[6.659202] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/share/tf2_broadcaster/environment/ament_prefix_path.dsv\n'}
+[6.659332] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/share/tf2_broadcaster/environment/path.sh\n'}
+[6.659593] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/share/tf2_broadcaster/environment/path.dsv\n'}
+[6.659664] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/share/tf2_broadcaster/local_setup.bash\n'}
+[6.659963] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/share/tf2_broadcaster/local_setup.sh\n'}
+[6.660079] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/share/tf2_broadcaster/local_setup.zsh\n'}
+[6.660201] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/share/tf2_broadcaster/local_setup.dsv\n'}
+[6.660317] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/share/tf2_broadcaster/package.dsv\n'}
+[6.660494] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/share/ament_index/resource_index/packages/tf2_broadcaster\n'}
+[6.660636] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/share/tf2_broadcaster/cmake/tf2_broadcasterConfig.cmake\n'}
+[6.660722] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/share/tf2_broadcaster/cmake/tf2_broadcasterConfig-version.cmake\n'}
+[6.660841] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/tf2_practice_ws/install/tf2_broadcaster/share/tf2_broadcaster/package.xml\n'}
+[6.663194] (tf2_broadcaster) CommandEnded: {'returncode': 0}
+[6.685456] (tf2_broadcaster) JobEnded: {'identifier': 'tf2_broadcaster', 'rc': 0}
+[6.686259] (-) EventReactorShutdown: {}

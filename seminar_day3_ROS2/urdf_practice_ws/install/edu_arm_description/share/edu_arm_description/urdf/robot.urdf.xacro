@@ -32,7 +32,7 @@
   <!-- 로봇 설계 태그 begin -->
   <xacro:property
     name="meshes_file_direction"
-    value="package://edu_arm_description/meshes" />
+    value="package://eduArm_description/meshes" />
 
   <link name="world">
 

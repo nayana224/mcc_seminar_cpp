@@ -1,0 +1,46 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/build/edu_arm_description
+-- Install configuration: ""
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/launch
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/launch/view_robot.launch.py
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/urdf
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/urdf/robot.urdf.xacro
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes/gripper_right_palm.stl
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes/link2.stl
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes/link3.stl
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes/link1.stl
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes/Plate.stl
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes/link5.stl
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes/gripper_left_palm.stl
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/meshes/link4.stl
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/ament_index/resource_index/package_run_dependencies/edu_arm_description
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/ament_index/resource_index/parent_prefix_path/edu_arm_description
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/environment/ament_prefix_path.sh
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/environment/ament_prefix_path.dsv
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/environment/path.sh
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/environment/path.dsv
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/local_setup.bash
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/local_setup.sh
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/local_setup.zsh
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/local_setup.dsv
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/package.dsv
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/ament_index/resource_index/packages/edu_arm_description
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/cmake/edu_arm_descriptionConfig.cmake
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/cmake/edu_arm_descriptionConfig-version.cmake
+-- Installing: /home/pyo/mcc_seminar_cpp/seminar_day3_ROS2/urdf_practice_ws/install/edu_arm_description/share/edu_arm_description/package.xml
